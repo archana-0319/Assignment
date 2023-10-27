@@ -19,7 +19,7 @@ body {
     min-height: 50px;
     max-width: 95%;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 400px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 3px;
     word-spacing: 40px;
@@ -27,6 +27,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 45px;
+    box-sizing: border-box;
 }
 
 .Nav_bar span {
@@ -54,12 +55,12 @@ body {
 }
 
 .image_text div {
-    background-color: rgba(229, 68, 47, 0.485);
+    background-color: rgba(234, 82, 62, 0.485);
     max-width: 70%;
-    padding: 55px 95px 55px 55px;
+    padding: 40px 180px 20px 50px;
     margin-top: -250px;
     margin-left: -200px;
-    opacity: 2px;
+    opacity: 0px;
 }
 
 .image_text h1 {
@@ -72,6 +73,7 @@ body {
     margin-top: 20px;
     word-spacing: 5px;
     line-height: 20px;
+    box-sizing: border-box;
     opacity: 1;
 } 
 
@@ -91,7 +93,7 @@ body {
     flex-direction: column;
     margin: 0 25px 45px 45px ;
     background: linear-gradient(to right, #ff67c2, #ffdc5b);
-    height: 90vh;
+    height: 95vh;
 }
 
 .title {
@@ -265,7 +267,7 @@ body {
 @media (max-width: 480px) and (max-width: 767px){
 
     .Nav_bar {
-        max-width: 100%;
+        max-width: 96%;
         font-size: 12px;
         font-weight: 400;
         padding: 10px;
